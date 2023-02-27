@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.label__name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.label__number {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.button {
+  width: 90px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: royalblue;
+  color: white;
+}
+.input {
+  width: 200px;
+  border: 0.5px solid gray;
+}
